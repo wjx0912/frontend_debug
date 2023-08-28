@@ -9,8 +9,9 @@
 			"request": "launch",
 			"name": "Launch Chrome against localhost",
 			"url": "http://localhost:5173",
-			"sourceMaps": true,
-			"webRoot": "${workspaceFolder}"
+			"webRoot": "${workspaceFolder}",
+			// https://github.com/vitejs/vite-plugin-vue/issues/33
+			"enableContentValidation": false
 		}
 	]
 }
